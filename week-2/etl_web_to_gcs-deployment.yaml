@@ -1,0 +1,58 @@
+###
+### A complete description of a Prefect Deployment for flow 'etl-web-to-gcs'
+###
+name: "\u201Cprefect-cloud\u201D"
+description: The main ETL function
+version: 5a49990fb16ee925843f01c4af260054
+# The work queue that will handle this deployment's runs
+work_queue_name: default
+tags: []
+parameters:
+  color: green
+  month: 4
+  year: '2019'
+schedule: null
+infra_overrides: {}
+
+###
+### DO NOT EDIT BELOW THIS LINE
+###
+flow_name: etl-web-to-gcs
+manifest_path: null
+infrastructure:
+  type: process
+  env: {}
+  labels: {}
+  name: null
+  command: null
+  stream_output: true
+  working_dir: null
+  _block_document_id: e88eaa04-a6fa-481e-8d81-eb0ad9f85a30
+  _block_document_name: anonymous-f09e99e7-1e84-4701-997e-0ae0c432b30d
+  _is_anonymous: true
+  block_type_slug: process
+  _block_type_slug: process
+storage: null
+path: /Users/jainendra/Documents/DEzoomcamp/Week2/prefect-zoomcamp/flows/02_gcp
+entrypoint: etl_web_to_gcs.py:etl_web_to_gcs
+parameter_openapi_schema:
+  title: Parameters
+  type: object
+  properties:
+    month:
+      title: month
+      default: 11
+      position: 0
+      type: integer
+    year:
+      title: year
+      default: 2019
+      position: 1
+      type: integer
+    color:
+      title: color
+      default: green
+      position: 2
+      type: string
+  required: null
+  definitions: null
