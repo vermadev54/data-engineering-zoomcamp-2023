@@ -1,4 +1,4 @@
-## Week 3 Homework
+## Week 3 Homework Solution
 <b><u>Important Note:</b></u> <p>You can load the data however you would like, but keep the files in .GZ Format. 
 If you are using orchestration such as Airflow or Prefect do not load the data into Big Query using the orchestrator.</br> 
 Stop with loading the files into a bucket. </br></br>
@@ -15,6 +15,7 @@ What is the count for fhv vehicle records for year 2019?
 - ✅43,244,696
 - 22,978,333
 - 13,942,414
+## Solution
 <img width="1127" alt="W3Q1" src="https://user-images.githubusercontent.com/34676681/218375321-d8a1f84f-3800-4809-8fe6-faf993257fb7.png">
 
 ## Question 2:
@@ -25,6 +26,7 @@ What is the estimated amount of data that will be read when this query is execut
 - 225.82 MB for the External Table and 47.60MB for the BQ Table
 - 0 MB for the External Table and 0MB for the BQ Table
 - ✅ 0 MB for the External Table and 317.94MB for the BQ Table 
+## Solution
 <img width="1176" alt="W3Q2" src="https://user-images.githubusercontent.com/34676681/218375331-d53bb561-9429-482a-8eb4-c53b87f56ab8.png">
 
 
@@ -34,7 +36,10 @@ How many records have both a blank (null) PUlocationID and DOlocationID in the e
 - 1,215,687
 - 5
 - 20,332
+## Solution
 <img width="1176" alt="W3Q2" src="https://user-images.githubusercontent.com/34676681/218375363-797d93a6-b109-4bb2-8c2e-19b924cf1ac8.png">
+
+
 ## Question 4:
 
 What is the best strategy to optimize the table if query always filter by pickup_datetime and order by affiliated_base_number?
@@ -50,6 +55,8 @@ Use the BQ table you created earlier in your from clause and note the estimated 
 - ✅ 647.87 MB for non-partitioned table and 23.06 MB for the partitioned table
 - 582.63 MB for non-partitioned table and 0 MB for the partitioned table
 - 646.25 MB for non-partitioned table and 646.25 MB for the partitioned table
+
+## Solution
 <img width="1076" alt="W3Q5" src="https://user-images.githubusercontent.com/34676681/218375391-6c31908f-4255-49c6-9da4-d58c6b822dff.png">
 
 
@@ -66,11 +73,4 @@ Where is the data stored in the External Table you created?
 It is best practice in Big Query to always cluster your data:
 - True
 - ✅ False
-
-
-## (Not required) Question 8:
-A better format to store these files may be parquet. Create a data pipeline to download the gzip files and convert them into parquet. Upload the files to your GCP Bucket and create an External and BQ Table. 
-
-
-Note: Column types for all files used in an External Table must have the same datatype. While an External Table may be created and shown in the side panel in Big Query, this will need to be validated by running a count query on the External Table to check if any errors occur. 
  
