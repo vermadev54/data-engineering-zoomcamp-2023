@@ -34,8 +34,8 @@ How many records have both a blank (null) PUlocationID and DOlocationID in the e
 - 1,215,687
 - 5
 - 20,332
-
-## Question 4:<img width="1176" alt="W3Q2" src="https://user-images.githubusercontent.com/34676681/218375363-797d93a6-b109-4bb2-8c2e-19b924cf1ac8.png">
+<img width="1176" alt="W3Q2" src="https://user-images.githubusercontent.com/34676681/218375363-797d93a6-b109-4bb2-8c2e-19b924cf1ac8.png">
+## Question 4:
 
 What is the best strategy to optimize the table if query always filter by pickup_datetime and order by affiliated_base_number?
 - Cluster on pickup_datetime Cluster on affiliated_base_number
