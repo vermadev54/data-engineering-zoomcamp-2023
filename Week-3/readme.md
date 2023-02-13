@@ -15,6 +15,7 @@ What is the count for fhv vehicle records for year 2019?
 - ✅43,244,696
 - 22,978,333
 - 13,942,414
+<img width="1127" alt="W3Q1" src="https://user-images.githubusercontent.com/34676681/218375321-d8a1f84f-3800-4809-8fe6-faf993257fb7.png">
 
 ## Question 2:
 Write a query to count the distinct number of affiliated_base_number for the entire dataset on both the tables.</br> 
@@ -24,6 +25,7 @@ What is the estimated amount of data that will be read when this query is execut
 - 225.82 MB for the External Table and 47.60MB for the BQ Table
 - 0 MB for the External Table and 0MB for the BQ Table
 - ✅ 0 MB for the External Table and 317.94MB for the BQ Table 
+<img width="1176" alt="W3Q2" src="https://user-images.githubusercontent.com/34676681/218375331-d53bb561-9429-482a-8eb4-c53b87f56ab8.png">
 
 
 ## Question 3:
@@ -33,7 +35,8 @@ How many records have both a blank (null) PUlocationID and DOlocationID in the e
 - 5
 - 20,332
 
-## Question 4:
+## Question 4:<img width="1176" alt="W3Q2" src="https://user-images.githubusercontent.com/34676681/218375363-797d93a6-b109-4bb2-8c2e-19b924cf1ac8.png">
+
 What is the best strategy to optimize the table if query always filter by pickup_datetime and order by affiliated_base_number?
 - Cluster on pickup_datetime Cluster on affiliated_base_number
 - ✅ Partition by pickup_datetime Cluster on affiliated_base_number
@@ -47,6 +50,7 @@ Use the BQ table you created earlier in your from clause and note the estimated 
 - ✅ 647.87 MB for non-partitioned table and 23.06 MB for the partitioned table
 - 582.63 MB for non-partitioned table and 0 MB for the partitioned table
 - 646.25 MB for non-partitioned table and 646.25 MB for the partitioned table
+<img width="1076" alt="W3Q5" src="https://user-images.githubusercontent.com/34676681/218375391-6c31908f-4255-49c6-9da4-d58c6b822dff.png">
 
 
 ## Question 6: 
