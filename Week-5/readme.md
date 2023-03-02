@@ -1,4 +1,4 @@
-## [Solution notebook find here](https://www.google.com)
+## [Solution notebook find here](https://github.com/vermadev54/data-engineering-zoomcamp-2023/blob/main/Week-5/homework_5_sol.ipynb)
 
 ## Week 5 Homework 
 
