@@ -1,4 +1,4 @@
-## [Solution notebook find here]((https://www.google.com))
+## [Solution notebook find here](https://www.google.com)
 
 ## Week 5 Homework 
 
