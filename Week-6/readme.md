@@ -15,10 +15,10 @@
 
 **Please select the Kafka concepts that support reliability and availability**
 
-- Topic Replication
+- ✅ Topic Replication
 - Topic Paritioning
 - Consumer Group Id
-- ✅ Ack All
+- Ack All
 
 
 
@@ -27,9 +27,9 @@
 **Please select the Kafka concepts that support scaling**  
 
 - Topic Replication
-- Topic Paritioning
+- ✅ Topic Paritioning
 - Consumer Group Id
-- ✅ Ack All
+- Ack All
 
 
 ### Question 4: 
