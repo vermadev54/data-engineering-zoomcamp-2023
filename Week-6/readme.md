@@ -8,7 +8,7 @@
 - ✅ Kafka Node is responsible to store topics
 - ✅ Zookeeper is removed form Kafka cluster starting from version 4.0
 - ✅ Retention configuration ensures the messages not get lost over specific period of time.
-- Group-Id ensures the messages are distributed to associated consumers
+- ✅ Group-Id ensures the messages are distributed to associated consumers
 
 
 ### Question 2: 
@@ -18,7 +18,7 @@
 - Topic Replication
 - Topic Paritioning
 - Consumer Group Id
-- Ack All
+- ✅ Ack All
 
 
 
@@ -26,10 +26,10 @@
 
 **Please select the Kafka concepts that support scaling**  
 
-- ✅ Topic Replication
+- Topic Replication
 - Topic Paritioning
 - Consumer Group Id
-- Ack All
+- ✅ Ack All
 
 
 ### Question 4: 
