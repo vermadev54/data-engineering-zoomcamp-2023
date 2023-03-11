@@ -52,7 +52,7 @@ Consider cardinality of the field you have selected and scaling aspects of your 
 - Deserializer Configuration
 - Topics Subscription
 - Bootstrap Server
-- Group-Id
+- ✅ Group-Id
 - Offset
 - Cluster Key and Cluster-Secret
 
