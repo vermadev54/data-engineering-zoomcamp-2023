@@ -76,7 +76,7 @@ Consider cardinality of the field you have selected and scaling aspects of your 
 
 **Which configurations below should be provided for Kafka Consumer but not needed for Kafka Producer**
 
-- Deserializer Configuration
+- ✅ Deserializer Configuration
 - Topics Subscription
 - Bootstrap Server
 - ✅ Group-Id
