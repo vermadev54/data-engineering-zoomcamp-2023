@@ -97,10 +97,13 @@ Your code should include following
 1. Producer that reads csv files and publish rides in corresponding kafka topics (such as rides_green, rides_fhv)
 2. Pyspark-streaming-application that reads two kafka topics
    and writes both of them in topic rides_all and apply aggregations to find most popular pickup location.
-   <img width="1400" alt="Screenshot 2023-03-14 at 5 02 39 PM" src="https://user-images.githubusercontent.com/34676681/225027456-4516e71c-96c9-4cb5-bf3a-c51baa267b7e.png">
+
+## Green topic producer message
 <img width="1390" alt="Screenshot 2023-03-14 at 5 05 15 PM" src="https://user-images.githubusercontent.com/34676681/225027467-8233f4f2-ea63-49a7-9c56-d54d684237a1.png">
-<img width="1385" alt="Screenshot 2023-03-14 at 5 05 03 PM" src="https://user-images.githubusercontent.com/34676681/225027482-85b36544-b2b8-4fda-86d8-fd44399ad098.png">
-<img width="1360" alt="Screenshot 2023-03-14 at 5 04 52 PM" src="https:<img width="1382" alt="Screenshot 2023-03-14 at 5 03 17 PM" src="https://user-images.githubusercontent.com/34676681/225027534-f65c1509-8c20-401b-a60a-2729450d9fb4.png">
-//user-images.githubusercontent.com/34676681/225027505-89f39486-f936-4102-8bfa-59a528a6e724.png">
+
+## aggregations topic producer message
+<img width="1400" alt="Screenshot 2023-03-14 at 5 02 39 PM" src="https://user-images.githubusercontent.com/34676681/225027456-4516e71c-96c9-4cb5-bf3a-c51baa267b7e.png">
+
+
 
 
