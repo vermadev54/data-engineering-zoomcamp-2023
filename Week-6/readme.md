@@ -33,7 +33,7 @@ Stream_notebook.ipynb
 **Please select the statements that are correct**
 
 - ✅ Kafka Node is responsible to store topics
-- ✅ Zookeeper is removed form Kafka cluster starting from version 4.0
+- Zookeeper is removed form Kafka cluster starting from version 4.0
 - ✅ Retention configuration ensures the messages not get lost over specific period of time.
 - ✅ Group-Id ensures the messages are distributed to associated consumers
 
@@ -65,11 +65,11 @@ Stream_notebook.ipynb
 Consider cardinality of the field you have selected and scaling aspects of your application**  
 
 - payment_type
-- vendor_id
+- ✅ vendor_id
 - passenger_count
 - total_amount
-- tpep_pickup_datetime
-- tpep_dropoff_datetime
+- ✅ tpep_pickup_datetime
+- ✅ tpep_dropoff_datetime
 
 
 ### Question 5: 
