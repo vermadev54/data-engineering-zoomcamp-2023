@@ -33,7 +33,7 @@ Stream_notebook.ipynb
 **Please select the statements that are correct**
 
 - ✅ Kafka Node is responsible to store topics
-- Zookeeper is removed form Kafka cluster starting from version 4.0
+- ✅ Zookeeper is removed form Kafka cluster starting from version 4.0
 - ✅ Retention configuration ensures the messages not get lost over specific period of time.
 - ✅ Group-Id ensures the messages are distributed to associated consumers
 
