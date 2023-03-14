@@ -43,7 +43,7 @@ Stream_notebook.ipynb
 **Please select the Kafka concepts that support reliability and availability**
 
 - ✅ Topic Replication
-- Topic Paritioning
+- ✅ Topic Paritioning
 - Consumer Group Id
 - Ack All
 
@@ -53,9 +53,9 @@ Stream_notebook.ipynb
 
 **Please select the Kafka concepts that support scaling**  
 
-- Topic Replication
+- ✅ Topic Replication
 - ✅ Topic Paritioning
-- Consumer Group Id
+- ✅ Consumer Group Id
 - Ack All
 
 
