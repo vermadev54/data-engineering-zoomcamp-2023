@@ -98,11 +98,18 @@ Your code should include following
 2. Pyspark-streaming-application that reads two kafka topics
    and writes both of them in topic rides_all and apply aggregations to find most popular pickup location.
 
-## Green topic producer message
+## FHV texi topic producer message
+<img width="1382" alt="Screenshot 2023-03-14 at 5 03 17 PM" src="https://user-images.githubusercontent.com/34676681/225029106-dd7f6b8f-0c13-4134-9a14-df8bb2cd3713.png">
+
+
+## Green texi topic producer message
 <img width="1390" alt="Screenshot 2023-03-14 at 5 05 15 PM" src="https://user-images.githubusercontent.com/34676681/225027467-8233f4f2-ea63-49a7-9c56-d54d684237a1.png">
 
-## aggregations topic producer message
+## Aggregations texi topic producer message
 <img width="1400" alt="Screenshot 2023-03-14 at 5 02 39 PM" src="https://user-images.githubusercontent.com/34676681/225027456-4516e71c-96c9-4cb5-bf3a-c51baa267b7e.png">
+
+
+
 
 
 
