@@ -1,5 +1,19 @@
 ## Step to run:
+- Run fhv texi producer
+```
+chmod u+x producer_fhv.py
 
+./producer_fhy.py getting_started.ini
+```
+- Run Green texi producer
+
+```
+chmod u+x producer_green.py
+
+./producer_green.py getting_started.ini
+```
+
+- Now run the Notebook 
 
 
 ## Week 6 Homework Solution
@@ -7,7 +21,8 @@
 
 ### Question 1: 
 
-**Please select the statements that are correct **
+**Please select the statements that are correct**
+
 - ✅ Kafka Node is responsible to store topics
 - ✅ Zookeeper is removed form Kafka cluster starting from version 4.0
 - ✅ Retention configuration ensures the messages not get lost over specific period of time.
