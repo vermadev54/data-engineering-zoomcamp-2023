@@ -110,7 +110,7 @@ Your code should include following
 
 ## Most frequent LocationID is 74
 ```
-{"LocationID":74, "Borough": "Manhattan",	"Zone": "East Harlem North")
+{"LocationID":74, "Borough": "Manhattan", "Zone": "East Harlem North")
 ```
 
 <img width="1109" alt="Screenshot 2023-03-14 at 7 48 14 PM" src="https://user-images.githubusercontent.com/34676681/225030199-2568aab6-5a60-4f0c-9488-e1a5a72d12ef.png">
