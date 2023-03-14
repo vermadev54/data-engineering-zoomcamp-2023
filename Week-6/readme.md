@@ -1,21 +1,28 @@
-*Kafka producer and stream application using Confluent Cloud*
+## Kafka producer and stream application using Confluent Cloud
 
 ## Step to run:
 - Run fhv texi producer
 ```
 chmod u+x producer_fhv.py
 
-./producer_fhy.py getting_started.ini
+./producer_fhy.py config.ini
 ```
 - Run Green texi producer
 
 ```
 chmod u+x producer_green.py
 
-./producer_green.py getting_started.ini
+./producer_green.py config.ini
 ```
-
-- Now run the Notebook 
+- setting path for spark in terminal
+```
+export PYTHONPATH="${SPARK_HOME}/python/:$PYTHONPATH"
+export PYTHONPATH="${SPARK_HOME}/python/lib/py4j-0.10.9.5-src.zip:$PYTHONPATH"
+```
+- Now start jupyter Notebook 
+```
+Stream_notebook.ipynb
+```
 
 
 ## Week 6 Homework Solution
