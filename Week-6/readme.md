@@ -5,7 +5,7 @@
 ```
 chmod u+x producer_fhv.py
 
-./producer_fhy.py config.ini
+./producer_fhv.py config.ini
 ```
 - Run Green texi producer
 
