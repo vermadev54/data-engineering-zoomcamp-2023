@@ -36,7 +36,7 @@ Overall, real-time dashboards can help you stay informed, make better decisions,
 
 For this project I decided to use the following tools:
 - **Infrastructure as code (IaC):** Terraform
-- **Workflow orchestration:** Airflow
+- **Workflow orchestration:** prefect
 - **Containerization:** Docker
 - **Data Lake:** Google Cloud Storage (GCS)
 - **Data Warehouse:** BigQuery
